@@ -1,0 +1,66 @@
+.Banner {
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(../../assets/image/banner.jpeg);
+    color: white;
+    object-fit: contain;
+  }
+  
+  .BannerContent {
+    padding-left: 15px;
+    padding-top: 330px;
+  }
+  
+  .Logo {
+    width: 150px;
+  }
+  
+  .BannerTitle {
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: 0.3rem;
+  }
+  
+  .BannerDescription {
+    height: 80px;
+    line-height: 1.3;
+    padding-top: 0.5rem;
+    font-size: 23px;
+    max-width: 340px;
+  }
+  
+  .BannerButtons {
+    display: inline-flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+    color: black;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 0.2vw;
+    padding: 0.5rem 2rem;
+    background-color: white;
+    margin-right: 1rem;
+  }
+  
+  .BannerButtons:hover {
+    color: white;
+    background-color: rgba(51, 51, 51, 0.8);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .FadeBottom {
+    height: 7.4rem;
+    background-image: linear-gradient(
+      180deg,
+      transparent,
+      rgba(37, 37, 37, 0.61),
+      #111
+    );
+    width: 100%;
+  }
