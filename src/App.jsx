@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { BrowserRouter } from "react-router-dom";
-import "./app.css";
+import "./App.css";
 import Header from "./Components/Header/Header";
 import Banner from "./Components/Banner/Banner";
 import MovieCard from "./Components/MovieCard/MovieCard";
