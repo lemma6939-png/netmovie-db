@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Styles from "./DisplayRow.module.css";
-import requests from "../../Utility/requestUrl";
+import requests from "../../Utility/requesturl";
 import Slideshow from "../SlideShow/SlideShow";
 import movieinstance from "../../Utility/MovieInstance";
 

@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import { Play, Info } from "lucide-react";
 import Styles from "./Banner.module.css";
 import movieinstance from "../../Utility/MovieInstance";
-import requests from "../../Utility/requestUrl";
+import requests from "../../Utility/requesturl";
 
 const BANNER_BASE = "https://image.tmdb.org/t/p/original/";
 
