@@ -1,5 +1,5 @@
 import React from "react";
-import Styles from "./Slideshow.module.css";
+import Styles from "./SlideShow.module.css";
 import MovieCard from "./../MovieCard/MovieCard";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
