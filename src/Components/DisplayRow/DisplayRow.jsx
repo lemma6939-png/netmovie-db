@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import Styles from "./DisplayRow.module.css";
+import requests from "../../Utility/requestUrl";
 import Slideshow from "../Slideshow/Slideshow";
 import movieinstance from "../../Utility/MovieInstance";
-import requests from "../../Utility/requestUrl";
 
 function DisplayRow() {
   const [movies, setMovies] = useState({
