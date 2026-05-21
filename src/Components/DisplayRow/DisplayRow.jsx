@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Styles from "./DisplayRow.module.css";
 import requests from "../../Utility/requestUrl";
-import Slideshow from "../Slideshow/Slideshow";
+import Slideshow from "../SlideShow/SlideShow";
 import movieinstance from "../../Utility/MovieInstance";
 
 function DisplayRow() {
@@ -68,7 +68,6 @@ function DisplayRow() {
       <Slideshow title="Romance Movies" movies={movies.romanceMovies} />
       <Slideshow title="Documentaries" movies={movies.documentaries} />
     </div>
-    
   );
 }
 
